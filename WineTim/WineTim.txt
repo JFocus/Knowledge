@@ -1,0 +1,15 @@
+Description: This is a note which introduces the process of installing tim on ubuntu 16.04
+
+Wine安装:
+Step1: According to WineHQ official webcite instructions to install WineHQ
+Step2: Add functions library 
+       command:winecfg 
+       libraries to be added: msxm16 riched20 riched32
+Step3:配置中文环境; ubuntu settings -> Language (将中文拖上去)
+Step4:配置windows字体 (Windows 字体备份文件)
+      cd /usr/share/fonts
+      cd windows
+      sudo mkfontdir
+      sudo mkfontscale
+      sudo fc-cache
+Step5: (optional) desktop编程;将图标弄到win里面
