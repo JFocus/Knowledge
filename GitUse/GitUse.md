@@ -60,7 +60,11 @@ Commit again
 
 View the history of your changes. **-p**:complete diffs at each step
 
+Managing Branches
+-----
 
+
+ 
 
 	
 
