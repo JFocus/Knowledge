@@ -31,4 +31,36 @@ and the snapshot will be stored in a temporary staging area which Git calls "ind
 This will prompt you for a commit message.(这会使你输入一个提交说明)And the First 
 Step of Importing a Local Project to Git has been complished.
 
-    
+Make Changes of your Porject
+---
+If you have modified some files in your project, let's say file1,file2 and file3
+
+	$git add .
+
+or 
+
+	$git add file1 file2 file3
+
+Take a snapshot again.
+
+(Information command)
+
+	$git diff --cached
+
+See what's about to be commited
+
+	$git commit 
+
+Commit again
+
+(Information command)
+
+	$git log
+	$git log -p
+
+View the history of your changes. **-p**:complete diffs at each step
+
+
+
+	
+
