@@ -17,7 +17,7 @@ The commands are below:
 
 	$git init
 Git will reply 
-Initialized empty Got repository in .git/
+Initialized empty Got repository in .git\/
 	$git add .
 This will take a snapshot of the contents all files under the current directory,
 and the snapshot will be stored in a temporary staging area which Git calls "index" 
