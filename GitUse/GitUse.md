@@ -18,11 +18,11 @@ The commands are below:
     $git init
 *    Git will reply 
      Initialized empty Got repository in .git/
-    $git add .
+        $git add .
 *    This will take a snapshot of the contents all files under the current directory,
      and the snapshot will be stored in a temporary staging area which Git calls 
      "index" 
-    $git commit
+        $git commit
 *    This will prompt you for a commit message.(这会使你输入一个提交说明)And the First 
      Step of Importing a Local Project to Git has been complished.
 
