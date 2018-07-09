@@ -20,14 +20,11 @@ The commands are below:
 Git will reply 
 Initialized empty Got repository in .git\/
 
-Then take a snapshot with:
-
 	$git add .
 
 This will take a snapshot of the contents all files under the current directory,
 and the snapshot will be stored in a temporary staging area which Git calls "index" 
 
-Then commit your project:
 
 	$git commit
 
