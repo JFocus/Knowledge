@@ -63,8 +63,12 @@ View the history of your changes. **-p**:complete diffs at each step
 Managing Branches
 -----
 
+These are the important commands:
 
+	$git branch
+	$git branch [newbranch]
  
+
 
 	
 
