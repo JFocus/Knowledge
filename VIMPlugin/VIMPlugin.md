@@ -15,6 +15,8 @@ Color Schemes
 Navagation and Searching
 ---
 
-* [NerdTree](https://github.com/scrooloose/nerdtree)
+* [NerdTree](https://github.com/scrooloose/nerdtree) is a file system explorer for the Vim editor. Using this plugin, users can visually browse complex directory
+hierarchies, quickly openfiles for reading or editing, and perform basic file system operations.
+
 * [CtrlP](https://github.com/kien/ctrlp.vim)
 
