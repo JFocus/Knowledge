@@ -20,3 +20,19 @@ hierarchies, quickly openfiles for reading or editing, and perform basic file sy
 
 * [CtrlP](https://github.com/kien/ctrlp.vim)
 
+* [Taglist](https://github.com/vim-scripts/taglist.vim) is a source code browser plugin for Vim and provides an overview of the structure of source code files and 
+allows you to efficiently browse through source code files for different programming languages.
+
+* [Tagbar](https://github.com/majutsushi/tagbar)
+
+* [TaskList](https://github.com/vim-scripts/TaskList.vim)
+
+Auto-Complete
+---
+
+* [YouCompleteMe](https://github.com/Valloric/YouCompleteMe). Too famous, no explanation.
+
+* [ultisnips](https://github.com/SirVer/ultisnips)
+
+* [Zen-Coding](https://github.com/mattn/emmet-vim)
+
