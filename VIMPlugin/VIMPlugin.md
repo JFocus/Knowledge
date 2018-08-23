@@ -1,7 +1,8 @@
 Classic VIM plug-in 
 ===
 
-[Original page](https://blog.csdn.net/mergerly/article/details/51671890)  
+[Copy page](https://blog.csdn.net/mergerly/article/details/51671890) 
+[Original Blog](ju.outofmemory.cn/entry/79671) 
 
 First One: The plug-in which manages all plug-ins
 ---
@@ -35,4 +36,28 @@ Auto-Complete
 * [ultisnips](https://github.com/SirVer/ultisnips)
 
 * [Zen-Coding](https://github.com/mattn/emmet-vim)
+
+Syntax
+---
+
+* [Syntastic](https://github.com/vim-syntastic/syntastic) runs files through external syntax checkers and displays any resulting errors to the user
+
+* [Python-mode](https://github.com/python-mode/python-mode). Python IDE.
+
+Others
+---
+* [Tabluarize](https://github.com/godlygeek/tabular)
+
+* [Easymotion](https://github.com/easymotion/vim-easymotion)
+
+* [nerdcommenter](https://github.com/scrooloose/nerdcommenter)
+
+* [Surround](https://github.com/tpope/vim-surround)
+
+* [Gundo](https://github.com/sjl/gundo.vim)
+
+* [Powerline](https://github.com/Lokaltog/vim-powerline)
+
+* [spf13](https://github.com/spf13/spf13-vim)
+
 
