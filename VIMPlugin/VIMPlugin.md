@@ -5,5 +5,7 @@ Classic VIM plug-in
 
 First One: The plug-in which manages all plug-ins
 ---
+[Vundle](https://github.com/VundleVim/Vundle.vim) is short for Vim bundle and is a Vim plugin manager
+
 
 
