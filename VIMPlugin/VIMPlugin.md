@@ -3,7 +3,7 @@ Classic VIM plug-in
 
 [Copy page](https://blog.csdn.net/mergerly/article/details/51671890)
  
-[Original Blog](https://ju.outofmemory.cn/entry/79671) 
+[Original Blog](ju.outofmemory.cn/entry/79671) 
 
 First One: The plug-in which manages all plug-ins
 ---
