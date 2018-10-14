@@ -1,0 +1,24 @@
+#This is to define some useful usb deviece
+
+
+# PL2303 USB to TTL serial
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="067b", ATTRS{idProduct}=="2303", GROUP="users", MODE="0666"
+
+# STMicroelectronics STM32F407 Virtual Communication port
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="0483", ATTRS{idProduct}=="5740", GROUP="users", MODE="0666"
+
+# FT232 USB to TTL serial
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6001", GROUP="users", MODE="0666"
+
+# FT2232C USB to TTL serial
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6010", GROUP="users", MODE="0666"
+
+# HL340 USB to TTL serial
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="1a86", ATTRS{idProduct}=="7523", GROUP="users", MODE="0666"
+
+# ublox receiver
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="1546", ATTRS{idProduct}=="01a8", GROUP="users", MODE="0666"
+
+# usb blaster 
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="09fb", ATTRS{idProduct}=="6001", GROUP="users", MODE="0666"
+
