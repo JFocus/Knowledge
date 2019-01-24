@@ -1,5 +1,5 @@
 set nocompatible
-filetype off
+filetype on
 
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -17,6 +17,8 @@ Plugin 'vim-syntastic/syntastic'
 Plugin 'kien/ctrlp.vim'
 
 Plugin 'vim-scripts/taglist.vim'
+
+Plugin 'vim-scripts/Conque-GDB'
 
 call vundle#end()
 filetype plugin indent on
@@ -54,9 +56,11 @@ let g:ctrlp_map = '<c-p>'
 "YouCompleteMe settings
 let g:ycm_global_ycm_extra_conf='/home/jfocus/.vim/bundle/YouCompleteMe/third_party/ycmd/.ycm_extra_conf.py'
 
-
-
-
+"vim settings
+set nu!
+set fdm=syntax
+autocmd FileType python set fdm=indent
+set vb t_vb=
 
 
 
