@@ -2,8 +2,10 @@
 #include <stdio.h>
 #include <string.h>
 using namespace std;
+#include <list>
 int main()
 {
-	cout<<"hello world"<<endl;
-	cout<<((1<<1)|1)<<endl;
+unsigned int b = 0;
+while(b)
+	cout<<"hello"<<endl;
 }
