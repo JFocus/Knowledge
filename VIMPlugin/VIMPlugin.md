@@ -61,4 +61,5 @@ Others
 
 * [spf13](https://github.com/spf13/spf13-vim)
 
+* [markdown](https://jianshu.com/p/24aefcd4ca93) fit my interest: vim-instant-markdown
 

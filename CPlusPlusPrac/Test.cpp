@@ -5,7 +5,12 @@ using namespace std;
 #include <list>
 int main()
 {
-unsigned int b = 0;
-while(b)
-	cout<<"hello"<<endl;
+	struct test
+	{
+		int a;
+	};
+	test hello = {10};
+	test *hello1[20];
+	hello1[1]->a = 10;
+	
 }

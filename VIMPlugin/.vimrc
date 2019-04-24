@@ -20,6 +20,8 @@ Plugin 'vim-scripts/taglist.vim'
 
 Plugin 'vim-scripts/Conque-GDB'
 
+Plugin 'suan/vim-instant-markdown'
+
 call vundle#end()
 filetype plugin indent on
 
@@ -31,7 +33,7 @@ colorscheme solarized
 
 "Nerdtree settings 
 map <C-n> : NERDTreeToggle<CR>
-
+map <C-y> : tabp<CR>
 "Chinese Display settings
 set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
 set termencoding=utf-8
@@ -61,6 +63,7 @@ set nu!
 set fdm=syntax
 autocmd FileType python set fdm=indent
 set vb t_vb=
+
 
 
 
