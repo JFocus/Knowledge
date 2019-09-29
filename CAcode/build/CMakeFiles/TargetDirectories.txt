@@ -1,0 +1,3 @@
+/home/jfocus/Documents/Knowledge/CAcode/build/CMakeFiles/rebuild_cache.dir
+/home/jfocus/Documents/Knowledge/CAcode/build/CMakeFiles/CAcode.dir
+/home/jfocus/Documents/Knowledge/CAcode/build/CMakeFiles/edit_cache.dir

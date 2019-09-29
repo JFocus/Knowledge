@@ -1,0 +1,3 @@
+/home/jfocus/Documents/Knowledge/CPlusPlus/Test/build/CMakeFiles/rebuild_cache.dir
+/home/jfocus/Documents/Knowledge/CPlusPlus/Test/build/CMakeFiles/Test.dir
+/home/jfocus/Documents/Knowledge/CPlusPlus/Test/build/CMakeFiles/edit_cache.dir
