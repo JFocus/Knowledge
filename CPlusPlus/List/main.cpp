@@ -93,5 +93,17 @@ int main(int argc, char ** argv)
             cout<<fifthV[i]<<' ';
     }
     cout<<endl;
-
+    
+    Vector<int> A;
+    for(int i = 0;i<3;i++)
+    {
+            A.push_back(i);
+    } 
+    Vector<int> B = A;
+    B = A;
+    double C[4]{1,2,3,4};
+    for(auto a : C)
+    {
+            cout<<a<<endl;
+    } 
 }

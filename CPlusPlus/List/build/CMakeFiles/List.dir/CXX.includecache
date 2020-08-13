@@ -6,7 +6,17 @@
 
 #IncludeRegexTransform: 
 
+/home/jfocus/Documents/Knowledge/CPlusPlus/List/dsexceptions.h
+
 /home/jfocus/Documents/Knowledge/CPlusPlus/List/list.h
+algorithm
+-
+iostream
+-
+stdexcept
+-
+dsexceptions.h
+/home/jfocus/Documents/Knowledge/CPlusPlus/List/dsexceptions.h
 
 /home/jfocus/Documents/Knowledge/CPlusPlus/List/main.cpp
 iostream

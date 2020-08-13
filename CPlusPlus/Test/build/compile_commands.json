@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/jfocus/Documents/Knowledge/CPlusPlus/Test/build",
+  "command": "/usr/bin/c++   -I/usr/include/eigen3  -O2 -lm -std=c++11 -pthread   -o CMakeFiles/Test.dir/Test.cpp.o -c /home/jfocus/Documents/Knowledge/CPlusPlus/Test/Test.cpp",
+  "file": "/home/jfocus/Documents/Knowledge/CPlusPlus/Test/Test.cpp"
+}
+]

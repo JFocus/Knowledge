@@ -1,1 +1,1 @@
-/usr/bin/c++    -rdynamic CMakeFiles/List.dir/main.cpp.o  -o List 
+/usr/bin/c++  -g  -rdynamic CMakeFiles/List.dir/main.cpp.o  -o List 

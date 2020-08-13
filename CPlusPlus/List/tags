@@ -4,6 +4,8 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A	main.cpp	/^    Vector<int> A;$/;"	kind:local
+ALLOWED_IMBALANCE	avltree.h	/^    static const int ALLOWED_IMBALANCE = 1;$/;"	kind:member	class:AvlTree	access:private
 ARCHITECTURE_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	401;"	kind:macro	file:
 ARCHITECTURE_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	404;"	kind:macro	file:
 ARCHITECTURE_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	407;"	kind:macro	file:
@@ -21,6 +23,113 @@ ARCHITECTURE_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	444
 ARCHITECTURE_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	447;"	kind:macro	file:
 ARCHITECTURE_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	450;"	kind:macro	file:
 ARCHITECTURE_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	453;"	kind:macro	file:
+AVL_TREE_H	avltree.h	2;"	kind:macro
+ArrayIndexOutOfBoundsException	dsexceptions.h	/^class ArrayIndexOutOfBoundsException { };$/;"	kind:class
+AvlNode	avltree.h	/^        AvlNode( Comparable && ele, AvlNode *lt, AvlNode *rt, int h = 0 )$/;"	kind:function	struct:AvlTree::AvlNode	access:public	signature:( Comparable && ele, AvlNode *lt, AvlNode *rt, int h = 0 )
+AvlNode	avltree.h	/^        AvlNode( const Comparable & ele, AvlNode *lt, AvlNode *rt, int h = 0 )$/;"	kind:function	struct:AvlTree::AvlNode	access:public	signature:( const Comparable & ele, AvlNode *lt, AvlNode *rt, int h = 0 )
+AvlNode	avltree.h	/^    struct AvlNode$/;"	kind:struct	class:AvlTree	access:private
+AvlTree	avltree.h	/^    AvlTree( ) : root{ nullptr }$/;"	kind:function	class:AvlTree	access:public	signature:( )
+AvlTree	avltree.h	/^    AvlTree( AvlTree && rhs ) : root{ rhs.root }$/;"	kind:function	class:AvlTree	access:public	signature:( AvlTree && rhs )
+AvlTree	avltree.h	/^    AvlTree( const AvlTree & rhs ) : root{ nullptr }$/;"	kind:function	class:AvlTree	access:public	signature:( const AvlTree & rhs )
+AvlTree	avltree.h	/^class AvlTree$/;"	kind:class
+AvlTree::ALLOWED_IMBALANCE	avltree.h	/^    static const int ALLOWED_IMBALANCE = 1;$/;"	kind:member	class:AvlTree	access:private
+AvlTree::AvlNode	avltree.h	/^    struct AvlNode$/;"	kind:struct	class:AvlTree	access:private
+AvlTree::AvlNode::AvlNode	avltree.h	/^        AvlNode( Comparable && ele, AvlNode *lt, AvlNode *rt, int h = 0 )$/;"	kind:function	struct:AvlTree::AvlNode	access:public	signature:( Comparable && ele, AvlNode *lt, AvlNode *rt, int h = 0 )
+AvlTree::AvlNode::AvlNode	avltree.h	/^        AvlNode( const Comparable & ele, AvlNode *lt, AvlNode *rt, int h = 0 )$/;"	kind:function	struct:AvlTree::AvlNode	access:public	signature:( const Comparable & ele, AvlNode *lt, AvlNode *rt, int h = 0 )
+AvlTree::AvlNode::element	avltree.h	/^        Comparable element;$/;"	kind:member	struct:AvlTree::AvlNode	access:public
+AvlTree::AvlNode::height	avltree.h	/^        int       height;$/;"	kind:member	struct:AvlTree::AvlNode	access:public
+AvlTree::AvlNode::left	avltree.h	/^        AvlNode   *left;$/;"	kind:member	struct:AvlTree::AvlNode	access:public
+AvlTree::AvlNode::right	avltree.h	/^        AvlNode   *right;$/;"	kind:member	struct:AvlTree::AvlNode	access:public
+AvlTree::AvlTree	avltree.h	/^    AvlTree( ) : root{ nullptr }$/;"	kind:function	class:AvlTree	access:public	signature:( )
+AvlTree::AvlTree	avltree.h	/^    AvlTree( AvlTree && rhs ) : root{ rhs.root }$/;"	kind:function	class:AvlTree	access:public	signature:( AvlTree && rhs )
+AvlTree::AvlTree	avltree.h	/^    AvlTree( const AvlTree & rhs ) : root{ nullptr }$/;"	kind:function	class:AvlTree	access:public	signature:( const AvlTree & rhs )
+AvlTree::balance	avltree.h	/^    void balance( AvlNode * & t )$/;"	kind:function	class:AvlTree	access:private	signature:( AvlNode * & t )
+AvlTree::clone	avltree.h	/^    AvlNode * clone( AvlNode *t ) const$/;"	kind:function	class:AvlTree	access:private	signature:( AvlNode *t ) const
+AvlTree::contains	avltree.h	/^    bool contains( const Comparable & x ) const$/;"	kind:function	class:AvlTree	access:public	signature:( const Comparable & x ) const
+AvlTree::contains	avltree.h	/^    bool contains( const Comparable & x, AvlNode *t ) const$/;"	kind:function	class:AvlTree	access:private	signature:( const Comparable & x, AvlNode *t ) const
+AvlTree::copy	avltree.h	/^        AvlTree copy = rhs;$/;"	kind:local
+AvlTree::doubleWithLeftChild	avltree.h	/^    void doubleWithLeftChild( AvlNode * & k3 )$/;"	kind:function	class:AvlTree	access:private	signature:( AvlNode * & k3 )
+AvlTree::doubleWithRightChild	avltree.h	/^    void doubleWithRightChild( AvlNode * & k1 )$/;"	kind:function	class:AvlTree	access:private	signature:( AvlNode * & k1 )
+AvlTree::endl	avltree.h	/^            cout << "Empty tree" << endl;$/;"	kind:local
+AvlTree::findMax	avltree.h	/^    AvlNode * findMax( AvlNode *t ) const$/;"	kind:function	class:AvlTree	access:private	signature:( AvlNode *t ) const
+AvlTree::findMax	avltree.h	/^    const Comparable & findMax( ) const$/;"	kind:function	class:AvlTree	access:public	signature:( ) const
+AvlTree::findMin	avltree.h	/^    AvlNode * findMin( AvlNode *t ) const$/;"	kind:function	class:AvlTree	access:private	signature:( AvlNode *t ) const
+AvlTree::findMin	avltree.h	/^    const Comparable & findMin( ) const$/;"	kind:function	class:AvlTree	access:public	signature:( ) const
+AvlTree::height	avltree.h	/^    int height( AvlNode *t ) const$/;"	kind:function	class:AvlTree	access:private	signature:( AvlNode *t ) const
+AvlTree::insert	avltree.h	/^    void insert( Comparable && x )$/;"	kind:function	class:AvlTree	access:public	signature:( Comparable && x )
+AvlTree::insert	avltree.h	/^    void insert( Comparable && x, AvlNode * & t )$/;"	kind:function	class:AvlTree	access:private	signature:( Comparable && x, AvlNode * & t )
+AvlTree::insert	avltree.h	/^    void insert( const Comparable & x )$/;"	kind:function	class:AvlTree	access:public	signature:( const Comparable & x )
+AvlTree::insert	avltree.h	/^    void insert( const Comparable & x, AvlNode * & t )$/;"	kind:function	class:AvlTree	access:private	signature:( const Comparable & x, AvlNode * & t )
+AvlTree::isEmpty	avltree.h	/^    bool isEmpty( ) const$/;"	kind:function	class:AvlTree	access:public	signature:( ) const
+AvlTree::k1	avltree.h	/^        AvlNode *k1 = k2->left;$/;"	kind:local
+AvlTree::k2	avltree.h	/^        AvlNode *k2 = k1->right;$/;"	kind:local
+AvlTree::makeEmpty	avltree.h	/^    void makeEmpty( )$/;"	kind:function	class:AvlTree	access:public	signature:( )
+AvlTree::makeEmpty	avltree.h	/^    void makeEmpty( AvlNode * & t )$/;"	kind:function	class:AvlTree	access:private	signature:( AvlNode * & t )
+AvlTree::max	avltree.h	/^    int max( int lhs, int rhs ) const$/;"	kind:function	class:AvlTree	access:private	signature:( int lhs, int rhs ) const
+AvlTree::move	avltree.h	/^            insert( std::move( x ), t->left );$/;"	kind:prototype	signature:(x )
+AvlTree::move	avltree.h	/^            insert( std::move( x ), t->right );$/;"	kind:prototype	signature:(x )
+AvlTree::move	avltree.h	/^        insert( std::move( x ), root );$/;"	kind:prototype	signature:(x )
+AvlTree::oldNode	avltree.h	/^            AvlNode *oldNode = t;$/;"	kind:local
+AvlTree::operator =	avltree.h	/^    AvlTree & operator=( AvlTree && rhs )$/;"	kind:function	class:AvlTree	access:public	signature:( AvlTree && rhs )
+AvlTree::operator =	avltree.h	/^    AvlTree & operator=( const AvlTree & rhs )$/;"	kind:function	class:AvlTree	access:public	signature:( const AvlTree & rhs )
+AvlTree::printTree	avltree.h	/^    void printTree( ) const$/;"	kind:function	class:AvlTree	access:public	signature:( ) const
+AvlTree::printTree	avltree.h	/^    void printTree( AvlNode *t ) const$/;"	kind:function	class:AvlTree	access:private	signature:( AvlNode *t ) const
+AvlTree::remove	avltree.h	/^    void remove( const Comparable & x )$/;"	kind:function	class:AvlTree	access:public	signature:( const Comparable & x )
+AvlTree::remove	avltree.h	/^    void remove( const Comparable & x, AvlNode * & t )$/;"	kind:function	class:AvlTree	access:private	signature:( const Comparable & x, AvlNode * & t )
+AvlTree::root	avltree.h	/^        insert( std::move( x ), root );$/;"	kind:local
+AvlTree::root	avltree.h	/^    AvlNode *root;$/;"	kind:member	class:AvlTree	access:private
+AvlTree::rotateWithLeftChild	avltree.h	/^    void rotateWithLeftChild( AvlNode * & k2 )$/;"	kind:function	class:AvlTree	access:private	signature:( AvlNode * & k2 )
+AvlTree::rotateWithRightChild	avltree.h	/^    void rotateWithRightChild( AvlNode * & k1 )$/;"	kind:function	class:AvlTree	access:private	signature:( AvlNode * & k1 )
+AvlTree::std::swap	avltree.h	/^        std::swap( root, rhs.root );$/;"	kind:prototype	class:AvlTree::std	signature:( root, rhs.root )
+AvlTree::~AvlTree	avltree.h	/^    ~AvlTree( )$/;"	kind:function	class:AvlTree	access:public	signature:( )
+B	main.cpp	/^    Vector<int> B = A;$/;"	kind:local
+BINARY_SEARCH_TREE_H	BinarySearchTree.h	2;"	kind:macro
+BinaryNode	BinarySearchTree.h	/^        BinaryNode( Comparable && theElement, BinaryNode *lt, BinaryNode *rt )$/;"	kind:function	struct:BinarySearchTree::BinaryNode	access:public	signature:( Comparable && theElement, BinaryNode *lt, BinaryNode *rt )
+BinaryNode	BinarySearchTree.h	/^        BinaryNode( const Comparable & theElement, BinaryNode *lt, BinaryNode *rt )$/;"	kind:function	struct:BinarySearchTree::BinaryNode	access:public	signature:( const Comparable & theElement, BinaryNode *lt, BinaryNode *rt )
+BinaryNode	BinarySearchTree.h	/^    struct BinaryNode$/;"	kind:struct	class:BinarySearchTree	access:private
+BinarySearchTree	BinarySearchTree.h	/^    BinarySearchTree( ) : root{ nullptr }$/;"	kind:function	class:BinarySearchTree	access:public	signature:( )
+BinarySearchTree	BinarySearchTree.h	/^    BinarySearchTree( BinarySearchTree && rhs ) : root{ rhs.root }$/;"	kind:function	class:BinarySearchTree	access:public	signature:( BinarySearchTree && rhs )
+BinarySearchTree	BinarySearchTree.h	/^    BinarySearchTree( const BinarySearchTree & rhs ) : root{ nullptr }$/;"	kind:function	class:BinarySearchTree	access:public	signature:( const BinarySearchTree & rhs )
+BinarySearchTree	BinarySearchTree.h	/^class BinarySearchTree$/;"	kind:class
+BinarySearchTree::BinaryNode	BinarySearchTree.h	/^    struct BinaryNode$/;"	kind:struct	class:BinarySearchTree	access:private
+BinarySearchTree::BinaryNode::BinaryNode	BinarySearchTree.h	/^        BinaryNode( Comparable && theElement, BinaryNode *lt, BinaryNode *rt )$/;"	kind:function	struct:BinarySearchTree::BinaryNode	access:public	signature:( Comparable && theElement, BinaryNode *lt, BinaryNode *rt )
+BinarySearchTree::BinaryNode::BinaryNode	BinarySearchTree.h	/^        BinaryNode( const Comparable & theElement, BinaryNode *lt, BinaryNode *rt )$/;"	kind:function	struct:BinarySearchTree::BinaryNode	access:public	signature:( const Comparable & theElement, BinaryNode *lt, BinaryNode *rt )
+BinarySearchTree::BinaryNode::element	BinarySearchTree.h	/^        Comparable element;$/;"	kind:member	struct:BinarySearchTree::BinaryNode	access:public
+BinarySearchTree::BinaryNode::left	BinarySearchTree.h	/^        BinaryNode *left;$/;"	kind:member	struct:BinarySearchTree::BinaryNode	access:public
+BinarySearchTree::BinaryNode::right	BinarySearchTree.h	/^        BinaryNode *right;$/;"	kind:member	struct:BinarySearchTree::BinaryNode	access:public
+BinarySearchTree::BinarySearchTree	BinarySearchTree.h	/^    BinarySearchTree( ) : root{ nullptr }$/;"	kind:function	class:BinarySearchTree	access:public	signature:( )
+BinarySearchTree::BinarySearchTree	BinarySearchTree.h	/^    BinarySearchTree( BinarySearchTree && rhs ) : root{ rhs.root }$/;"	kind:function	class:BinarySearchTree	access:public	signature:( BinarySearchTree && rhs )
+BinarySearchTree::BinarySearchTree	BinarySearchTree.h	/^    BinarySearchTree( const BinarySearchTree & rhs ) : root{ nullptr }$/;"	kind:function	class:BinarySearchTree	access:public	signature:( const BinarySearchTree & rhs )
+BinarySearchTree::clone	BinarySearchTree.h	/^    BinaryNode * clone( BinaryNode *t ) const$/;"	kind:function	class:BinarySearchTree	access:private	signature:( BinaryNode *t ) const
+BinarySearchTree::contains	BinarySearchTree.h	/^    bool contains( const Comparable & x ) const$/;"	kind:function	class:BinarySearchTree	access:public	signature:( const Comparable & x ) const
+BinarySearchTree::contains	BinarySearchTree.h	/^    bool contains( const Comparable & x, BinaryNode *t ) const$/;"	kind:function	class:BinarySearchTree	access:private	signature:( const Comparable & x, BinaryNode *t ) const
+BinarySearchTree::copy	BinarySearchTree.h	/^        BinarySearchTree copy = rhs;$/;"	kind:local
+BinarySearchTree::endl	BinarySearchTree.h	/^            out << "Empty tree" << endl;$/;"	kind:local
+BinarySearchTree::findMax	BinarySearchTree.h	/^    BinaryNode * findMax( BinaryNode *t ) const$/;"	kind:function	class:BinarySearchTree	access:private	signature:( BinaryNode *t ) const
+BinarySearchTree::findMax	BinarySearchTree.h	/^    const Comparable & findMax( ) const$/;"	kind:function	class:BinarySearchTree	access:public	signature:( ) const
+BinarySearchTree::findMin	BinarySearchTree.h	/^    BinaryNode * findMin( BinaryNode *t ) const$/;"	kind:function	class:BinarySearchTree	access:private	signature:( BinaryNode *t ) const
+BinarySearchTree::findMin	BinarySearchTree.h	/^    const Comparable & findMin( ) const$/;"	kind:function	class:BinarySearchTree	access:public	signature:( ) const
+BinarySearchTree::insert	BinarySearchTree.h	/^    void insert( Comparable && x )$/;"	kind:function	class:BinarySearchTree	access:public	signature:( Comparable && x )
+BinarySearchTree::insert	BinarySearchTree.h	/^    void insert( Comparable && x, BinaryNode * & t )$/;"	kind:function	class:BinarySearchTree	access:private	signature:( Comparable && x, BinaryNode * & t )
+BinarySearchTree::insert	BinarySearchTree.h	/^    void insert( const Comparable & x )$/;"	kind:function	class:BinarySearchTree	access:public	signature:( const Comparable & x )
+BinarySearchTree::insert	BinarySearchTree.h	/^    void insert( const Comparable & x, BinaryNode * & t )$/;"	kind:function	class:BinarySearchTree	access:private	signature:( const Comparable & x, BinaryNode * & t )
+BinarySearchTree::isEmpty	BinarySearchTree.h	/^    bool isEmpty( ) const$/;"	kind:function	class:BinarySearchTree	access:public	signature:( ) const
+BinarySearchTree::makeEmpty	BinarySearchTree.h	/^    void makeEmpty( )$/;"	kind:function	class:BinarySearchTree	access:public	signature:( )
+BinarySearchTree::makeEmpty	BinarySearchTree.h	/^    void makeEmpty( BinaryNode * & t )$/;"	kind:function	class:BinarySearchTree	access:private	signature:( BinaryNode * & t )
+BinarySearchTree::move	BinarySearchTree.h	/^            insert( std::move( x ), t->left );$/;"	kind:prototype	signature:(x )
+BinarySearchTree::move	BinarySearchTree.h	/^            insert( std::move( x ), t->right );$/;"	kind:prototype	signature:(x )
+BinarySearchTree::move	BinarySearchTree.h	/^        insert( std::move( x ), root );$/;"	kind:prototype	signature:(x )
+BinarySearchTree::oldNode	BinarySearchTree.h	/^            BinaryNode *oldNode = t;$/;"	kind:local
+BinarySearchTree::operator =	BinarySearchTree.h	/^    BinarySearchTree & operator=( BinarySearchTree && rhs )$/;"	kind:function	class:BinarySearchTree	access:public	signature:( BinarySearchTree && rhs )
+BinarySearchTree::operator =	BinarySearchTree.h	/^    BinarySearchTree & operator=( const BinarySearchTree & rhs )$/;"	kind:function	class:BinarySearchTree	access:public	signature:( const BinarySearchTree & rhs )
+BinarySearchTree::printTree	BinarySearchTree.h	/^    void printTree( BinaryNode *t, ostream & out ) const$/;"	kind:function	class:BinarySearchTree	access:private	signature:( BinaryNode *t, ostream & out ) const
+BinarySearchTree::printTree	BinarySearchTree.h	/^    void printTree( ostream & out = cout ) const$/;"	kind:function	class:BinarySearchTree	access:public	signature:( ostream & out = cout ) const
+BinarySearchTree::remove	BinarySearchTree.h	/^    void remove( const Comparable & x )$/;"	kind:function	class:BinarySearchTree	access:public	signature:( const Comparable & x )
+BinarySearchTree::remove	BinarySearchTree.h	/^    void remove( const Comparable & x, BinaryNode * & t )$/;"	kind:function	class:BinarySearchTree	access:private	signature:( const Comparable & x, BinaryNode * & t )
+BinarySearchTree::root	BinarySearchTree.h	/^        insert( std::move( x ), root );$/;"	kind:local
+BinarySearchTree::root	BinarySearchTree.h	/^    BinaryNode *root;$/;"	kind:member	class:BinarySearchTree	access:private
+BinarySearchTree::std::swap	BinarySearchTree.h	/^        std::swap( root, rhs.root );       $/;"	kind:prototype	class:BinarySearchTree::std	signature:( root, rhs.root )
+BinarySearchTree::~BinarySearchTree	BinarySearchTree.h	/^    ~BinarySearchTree( )$/;"	kind:function	class:BinarySearchTree	access:public	signature:( )
 COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	101;"	kind:macro	file:
 COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	108;"	kind:macro	file:
 COMPILER_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	115;"	kind:macro	file:
@@ -138,12 +247,97 @@ COMPILER_VERSION_TWEAK	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.
 CXX_STD	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	534;"	kind:macro	file:
 CXX_STD	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	536;"	kind:macro	file:
 DEC	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	457;"	kind:macro	file:
-Element	list.h	/^            Type Element;$/;"	kind:member	class:List	access:private
+DS_EXCEPTIONS_H	dsexceptions.h	2;"	kind:macro
 HEX	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	468;"	kind:macro	file:
+IllegalArgumentException	dsexceptions.h	/^class IllegalArgumentException { };$/;"	kind:class
+IteratorMismatchException	dsexceptions.h	/^class IteratorMismatchException { };$/;"	kind:class
+IteratorOutOfBoundsException	dsexceptions.h	/^class IteratorOutOfBoundsException { };$/;"	kind:class
+IteratorUninitializedException	dsexceptions.h	/^class IteratorUninitializedException { };$/;"	kind:class
+LIST_H	list.h	2;"	kind:macro
+List	list.h	/^        friend class List<Object>;$/;"	kind:externvar
+List	list.h	/^    List( )$/;"	kind:function	class:List	access:public	signature:( )
+List	list.h	/^    List( List && rhs )$/;"	kind:function	class:List	access:public	signature:( List && rhs )
+List	list.h	/^    List( const List & rhs )$/;"	kind:function	class:List	access:public	signature:( const List & rhs )
 List	list.h	/^class List$/;"	kind:class
-List::Element	list.h	/^            Type Element;$/;"	kind:member	class:List	access:private
-List::Next	list.h	/^            Type * Next;  $/;"	kind:member	class:List	access:private
-Next	list.h	/^            Type * Next;  $/;"	kind:member	class:List	access:private
+List::List	list.h	/^    List( )$/;"	kind:function	class:List	access:public	signature:( )
+List::List	list.h	/^    List( List && rhs )$/;"	kind:function	class:List	access:public	signature:( List && rhs )
+List::List	list.h	/^    List( const List & rhs )$/;"	kind:function	class:List	access:public	signature:( const List & rhs )
+List::Node	list.h	/^    struct Node$/;"	kind:struct	class:List	access:private
+List::Node::Node	list.h	/^        Node( Object && d, Node * p = nullptr, Node * n = nullptr )$/;"	kind:function	struct:List::Node	access:public	signature:( Object && d, Node * p = nullptr, Node * n = nullptr )
+List::Node::Node	list.h	/^        Node( const Object & d = Object{ }, Node * p = nullptr, Node * n = nullptr )$/;"	kind:function	struct:List::Node	access:public	signature:( const Object & d = Object{ }, Node * p = nullptr, Node * n = nullptr )
+List::Node::data	list.h	/^        Object  data;$/;"	kind:member	struct:List::Node	access:public
+List::Node::next	list.h	/^        Node   *next;$/;"	kind:member	struct:List::Node	access:public
+List::Node::prev	list.h	/^        Node   *prev;$/;"	kind:member	struct:List::Node	access:public
+List::back	list.h	/^    Object & back( )$/;"	kind:function	class:List	access:public	signature:( )
+List::back	list.h	/^    const Object & back( ) const$/;"	kind:function	class:List	access:public	signature:( ) const
+List::begin	list.h	/^      { erase( begin( ) ); }$/;"	kind:prototype	signature:()
+List::begin	list.h	/^      { insert( begin( ), std::move( x ) ); }$/;"	kind:prototype	signature:()
+List::begin	list.h	/^      { insert( begin( ), x ); }$/;"	kind:prototype	signature:()
+List::begin	list.h	/^    const_iterator begin( ) const$/;"	kind:function	class:List	access:public	signature:( ) const
+List::begin	list.h	/^    iterator begin( )$/;"	kind:function	class:List	access:public	signature:( )
+List::clear	list.h	/^    void clear( )$/;"	kind:function	class:List	access:public	signature:( )
+List::const_iterator	list.h	/^    class const_iterator$/;"	kind:class	class:List	access:public
+List::const_iterator::List	list.h	/^        friend class List<Object>;$/;"	kind:externvar
+List::const_iterator::const_iterator	list.h	/^        const_iterator( ) : current{ nullptr }$/;"	kind:function	class:List::const_iterator	access:public	signature:( )
+List::const_iterator::const_iterator	list.h	/^        const_iterator( Node *p ) :  current{ p }$/;"	kind:function	class:List::const_iterator	access:protected	signature:( Node *p )
+List::const_iterator::current	list.h	/^        Node *current;$/;"	kind:member	class:List::const_iterator	access:protected
+List::const_iterator::old	list.h	/^            const_iterator old = *this;$/;"	kind:local
+List::const_iterator::operator !=	list.h	/^        bool operator!= ( const const_iterator & rhs ) const$/;"	kind:function	class:List::const_iterator	access:public	signature:( const const_iterator & rhs ) const
+List::const_iterator::operator *	list.h	/^        const Object & operator* ( ) const$/;"	kind:function	class:List::const_iterator	access:public	signature:( ) const
+List::const_iterator::operator ++	list.h	/^        const_iterator & operator++ ( )$/;"	kind:function	class:List::const_iterator	access:public	signature:( )
+List::const_iterator::operator ++	list.h	/^        const_iterator operator++ ( int )$/;"	kind:function	class:List::const_iterator	access:public	signature:( int )
+List::const_iterator::operator --	list.h	/^        const_iterator & operator-- ( )$/;"	kind:function	class:List::const_iterator	access:public	signature:( )
+List::const_iterator::operator --	list.h	/^        const_iterator operator-- ( int )$/;"	kind:function	class:List::const_iterator	access:public	signature:( int )
+List::const_iterator::operator ==	list.h	/^        bool operator== ( const const_iterator & rhs ) const$/;"	kind:function	class:List::const_iterator	access:public	signature:( const const_iterator & rhs ) const
+List::const_iterator::retrieve	list.h	/^        Object & retrieve( ) const$/;"	kind:function	class:List::const_iterator	access:protected	signature:( ) const
+List::copy	list.h	/^        List copy = rhs;$/;"	kind:local
+List::empty	list.h	/^    bool empty( ) const$/;"	kind:function	class:List	access:public	signature:( ) const
+List::end	list.h	/^      { insert( end( ), std::move( x ) ); }$/;"	kind:prototype	signature:()
+List::end	list.h	/^      { insert( end( ), x ); }$/;"	kind:prototype	signature:()
+List::end	list.h	/^    const_iterator end( ) const$/;"	kind:function	class:List	access:public	signature:( ) const
+List::end	list.h	/^    iterator end( )$/;"	kind:function	class:List	access:public	signature:( )
+List::erase	list.h	/^    iterator erase( iterator from, iterator to )$/;"	kind:function	class:List	access:public	signature:( iterator from, iterator to )
+List::erase	list.h	/^    iterator erase( iterator itr )$/;"	kind:function	class:List	access:public	signature:( iterator itr )
+List::front	list.h	/^    Object & front( )$/;"	kind:function	class:List	access:public	signature:( )
+List::front	list.h	/^    const Object & front( ) const$/;"	kind:function	class:List	access:public	signature:( ) const
+List::head	list.h	/^    Node *head;$/;"	kind:member	class:List	access:private
+List::init	list.h	/^    void init( )$/;"	kind:function	class:List	access:private	signature:( )
+List::insert	list.h	/^    iterator insert( iterator itr, Object && x )$/;"	kind:function	class:List	access:public	signature:( iterator itr, Object && x )
+List::insert	list.h	/^    iterator insert( iterator itr, const Object & x )$/;"	kind:function	class:List	access:public	signature:( iterator itr, const Object & x )
+List::iterator	list.h	/^    class iterator : public const_iterator$/;"	kind:class	class:List	inherits:const_iterator	access:public
+List::iterator::List	list.h	/^        friend class List<Object>;$/;"	kind:externvar
+List::iterator::iterator	list.h	/^        iterator( )$/;"	kind:function	class:List::iterator	access:public	signature:( )
+List::iterator::iterator	list.h	/^        iterator( Node *p ) : const_iterator{ p }$/;"	kind:function	class:List::iterator	access:protected	signature:( Node *p )
+List::iterator::old	list.h	/^            iterator old = *this;$/;"	kind:local
+List::iterator::operator *	list.h	/^        Object & operator* ( )$/;"	kind:function	class:List::iterator	access:public	signature:( )
+List::iterator::operator *	list.h	/^        const Object & operator* ( ) const$/;"	kind:function	class:List::iterator	access:public	signature:( ) const
+List::iterator::operator ++	list.h	/^        iterator & operator++ ( )$/;"	kind:function	class:List::iterator	access:public	signature:( )
+List::iterator::operator ++	list.h	/^        iterator operator++ ( int )$/;"	kind:function	class:List::iterator	access:public	signature:( int )
+List::iterator::operator --	list.h	/^        iterator & operator-- ( )$/;"	kind:function	class:List::iterator	access:public	signature:( )
+List::iterator::operator --	list.h	/^        iterator operator-- ( int )$/;"	kind:function	class:List::iterator	access:public	signature:( int )
+List::operator =	list.h	/^    List & operator= ( List && rhs )$/;"	kind:function	class:List	access:public	signature:( List && rhs )
+List::operator =	list.h	/^    List & operator= ( const List & rhs )$/;"	kind:function	class:List	access:public	signature:( const List & rhs )
+List::p	list.h	/^        Node *p = itr.current;$/;"	kind:local
+List::pop_back	list.h	/^    void pop_back( )$/;"	kind:function	class:List	access:public	signature:( )
+List::pop_front	list.h	/^    void pop_front( )$/;"	kind:function	class:List	access:public	signature:( )
+List::push_back	list.h	/^    void push_back( Object && x )$/;"	kind:function	class:List	access:public	signature:( Object && x )
+List::push_back	list.h	/^    void push_back( const Object & x )$/;"	kind:function	class:List	access:public	signature:( const Object & x )
+List::push_front	list.h	/^    void push_front( Object && x )$/;"	kind:function	class:List	access:public	signature:( Object && x )
+List::push_front	list.h	/^    void push_front( const Object & x )$/;"	kind:function	class:List	access:public	signature:( const Object & x )
+List::size	list.h	/^    int size( ) const$/;"	kind:function	class:List	access:public	signature:( ) const
+List::std::move	list.h	/^      { insert( begin( ), std::move( x ) ); }$/;"	kind:prototype	class:List::std	signature:( x )
+List::std::move	list.h	/^      { insert( end( ), std::move( x ) ); }$/;"	kind:prototype	class:List::std	signature:( x )
+List::std::swap	list.h	/^        std::swap( head, rhs.head );$/;"	kind:prototype	class:List::std	signature:( head, rhs.head )
+List::std::swap	list.h	/^        std::swap( tail, rhs.tail );$/;"	kind:prototype	class:List::std	signature:( tail, rhs.tail )
+List::std::swap	list.h	/^        std::swap( theSize, rhs.theSize );$/;"	kind:prototype	class:List::std	signature:( theSize, rhs.theSize )
+List::tail	list.h	/^    Node *tail;$/;"	kind:member	class:List	access:private
+List::theSize	list.h	/^    int   theSize;$/;"	kind:member	class:List	access:private
+List::x	list.h	/^      { insert( begin( ), x ); }$/;"	kind:local
+List::x	list.h	/^      { insert( end( ), x ); }$/;"	kind:local
+List::~List	list.h	/^    ~List( )$/;"	kind:function	class:List	access:public	signature:( )
+Node	list.h	/^        Node( Object && d, Node * p = nullptr, Node * n = nullptr )$/;"	kind:function	struct:List::Node	access:public	signature:( Object && d, Node * p = nullptr, Node * n = nullptr )
+Node	list.h	/^        Node( const Object & d = Object{ }, Node * p = nullptr, Node * n = nullptr )$/;"	kind:function	struct:List::Node	access:public	signature:( const Object & d = Object{ }, Node * p = nullptr, Node * n = nullptr )
+Node	list.h	/^    struct Node$/;"	kind:struct	class:List	access:private
 PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	298;"	kind:macro	file:
 PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	301;"	kind:macro	file:
 PLATFORM_ID	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	304;"	kind:macro	file:
@@ -184,25 +378,129 @@ SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.
 SIMULATE_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	165;"	kind:macro	file:
 SIMULATE_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	180;"	kind:macro	file:
 SIMULATE_VERSION_MINOR	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	38;"	kind:macro	file:
+SPARE_CAPACITY	list.h	/^    static const int SPARE_CAPACITY = 2;$/;"	kind:member	class:Vector	access:public
 STRINGIFY	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	294;"	kind:macro	file:
 STRINGIFY_HELPER	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	293;"	kind:macro	file:
-_LIST_H_	list.h	2;"	kind:macro
+UnderflowException	dsexceptions.h	/^class UnderflowException { };$/;"	kind:class
+Vector	list.h	/^    Vector( Vector && rhs )$/;"	kind:function	class:Vector	access:public	signature:( Vector && rhs )
+Vector	list.h	/^    Vector( const Vector & rhs )$/;"	kind:function	class:Vector	access:public	signature:( const Vector & rhs )
+Vector	list.h	/^    explicit Vector( int initSize = 0 )$/;"	kind:function	class:Vector	access:public	signature:( int initSize = 0 )
+Vector	list.h	/^class Vector$/;"	kind:class
+Vector::SPARE_CAPACITY	list.h	/^    static const int SPARE_CAPACITY = 2;$/;"	kind:member	class:Vector	access:public
+Vector::Vector	list.h	/^    Vector( Vector && rhs )$/;"	kind:function	class:Vector	access:public	signature:( Vector && rhs )
+Vector::Vector	list.h	/^    Vector( const Vector & rhs )$/;"	kind:function	class:Vector	access:public	signature:( const Vector & rhs )
+Vector::Vector	list.h	/^    explicit Vector( int initSize = 0 )$/;"	kind:function	class:Vector	access:public	signature:( int initSize = 0 )
+Vector::back	list.h	/^    const Object & back ( ) const$/;"	kind:function	class:Vector	access:public	signature:( ) const
+Vector::begin	list.h	/^    const_iterator begin( ) const$/;"	kind:function	class:Vector	access:public	signature:( ) const
+Vector::begin	list.h	/^    iterator begin( )$/;"	kind:function	class:Vector	access:public	signature:( )
+Vector::capacity	list.h	/^    int capacity( ) const$/;"	kind:function	class:Vector	access:public	signature:( ) const
+Vector::const_iterator	list.h	/^    typedef const Object * const_iterator;$/;"	kind:typedef	class:Vector	access:public
+Vector::copy	list.h	/^        Vector copy = rhs;$/;"	kind:local
+Vector::empty	list.h	/^    bool empty( ) const$/;"	kind:function	class:Vector	access:public	signature:( ) const
+Vector::end	list.h	/^    const_iterator end( ) const$/;"	kind:function	class:Vector	access:public	signature:( ) const
+Vector::end	list.h	/^    iterator end( )$/;"	kind:function	class:Vector	access:public	signature:( )
+Vector::endl	list.h	/^        cout<<"call = "<<endl;$/;"	kind:local
+Vector::endl	list.h	/^        cout<<"call = Rvalue"<<endl; $/;"	kind:local
+Vector::endl	list.h	/^        cout<<"call Rvalue"<<endl;$/;"	kind:variable
+Vector::endl	list.h	/^        cout<<"call init"<<endl;$/;"	kind:variable
+Vector::iterator	list.h	/^    typedef Object * iterator;$/;"	kind:typedef	class:Vector	access:public
+Vector::objects	list.h	/^    Object * objects;$/;"	kind:member	class:Vector	access:private
+Vector::operator =	list.h	/^    Vector & operator= ( Vector && rhs )$/;"	kind:function	class:Vector	access:public	signature:( Vector && rhs )
+Vector::operator =	list.h	/^    Vector & operator= ( const Vector & rhs )$/;"	kind:function	class:Vector	access:public	signature:( const Vector & rhs )
+Vector::operator []	list.h	/^    Object & operator[]( int index )$/;"	kind:function	class:Vector	access:public	signature:( int index )
+Vector::operator []	list.h	/^    const Object & operator[]( int index ) const$/;"	kind:function	class:Vector	access:public	signature:( int index ) const
+Vector::pop_back	list.h	/^    void pop_back( )$/;"	kind:function	class:Vector	access:public	signature:( )
+Vector::push_back	list.h	/^    void push_back( Object && x )$/;"	kind:function	class:Vector	access:public	signature:( Object && x )
+Vector::push_back	list.h	/^    void push_back( const Object & x )$/;"	kind:function	class:Vector	access:public	signature:( const Object & x )
+Vector::reserve	list.h	/^    void reserve( int newCapacity ) \/\/两步，迁移数据，使用新capacity$/;"	kind:function	class:Vector	access:public	signature:( int newCapacity )
+Vector::resize	list.h	/^    void resize( int newSize )$/;"	kind:function	class:Vector	access:public	signature:( int newSize )
+Vector::size	list.h	/^    int size( ) const$/;"	kind:function	class:Vector	access:public	signature:( ) const
+Vector::std::swap	list.h	/^        std::swap( objects, newArray );$/;"	kind:prototype	class:Vector::std	signature:( objects, newArray )
+Vector::std::swap	list.h	/^        std::swap( objects, rhs.objects );$/;"	kind:prototype	class:Vector::std	signature:( objects, rhs.objects )
+Vector::std::swap	list.h	/^        std::swap( theCapacity, rhs.theCapacity );$/;"	kind:prototype	class:Vector::std	signature:( theCapacity, rhs.theCapacity )
+Vector::std::swap	list.h	/^        std::swap( theSize, rhs.theSize );$/;"	kind:prototype	class:Vector::std	signature:( theSize, rhs.theSize )
+Vector::theCapacity	list.h	/^    int theCapacity;$/;"	kind:member	class:Vector	access:private
+Vector::theSize	list.h	/^    int theSize;$/;"	kind:member	class:Vector	access:private
+Vector::~Vector	list.h	/^    ~Vector( )$/;"	kind:function	class:Vector	access:public	signature:( )
 at	main.cpp	/^            cout<<fifthV.at(i)<<' ';$/;"	kind:prototype	file:	signature:(i)
+back	list.h	/^    Object & back( )$/;"	kind:function	class:List	access:public	signature:( )
+back	list.h	/^    const Object & back ( ) const$/;"	kind:function	class:Vector	access:public	signature:( ) const
+back	list.h	/^    const Object & back( ) const$/;"	kind:function	class:List	access:public	signature:( ) const
+balance	avltree.h	/^    void balance( AvlNode * & t )$/;"	kind:function	class:AvlTree	access:private	signature:( AvlNode * & t )
+begin	list.h	/^      { erase( begin( ) ); }$/;"	kind:prototype	signature:()
+begin	list.h	/^      { insert( begin( ), std::move( x ) ); }$/;"	kind:prototype	signature:()
+begin	list.h	/^      { insert( begin( ), x ); }$/;"	kind:prototype	signature:()
+begin	list.h	/^    const_iterator begin( ) const$/;"	kind:function	class:List	access:public	signature:( ) const
+begin	list.h	/^    const_iterator begin( ) const$/;"	kind:function	class:Vector	access:public	signature:( ) const
+begin	list.h	/^    iterator begin( )$/;"	kind:function	class:List	access:public	signature:( )
+begin	list.h	/^    iterator begin( )$/;"	kind:function	class:Vector	access:public	signature:( )
+capacity	list.h	/^    int capacity( ) const$/;"	kind:function	class:Vector	access:public	signature:( ) const
+clear	list.h	/^    void clear( )$/;"	kind:function	class:List	access:public	signature:( )
 clear	main.cpp	/^    fourth.clear();$/;"	kind:prototype	file:	signature:()
+clone	BinarySearchTree.h	/^    BinaryNode * clone( BinaryNode *t ) const$/;"	kind:function	class:BinarySearchTree	access:private	signature:( BinaryNode *t ) const
+clone	avltree.h	/^    AvlNode * clone( AvlNode *t ) const$/;"	kind:function	class:AvlTree	access:private	signature:( AvlNode *t ) const
+const_iterator	list.h	/^        const_iterator( ) : current{ nullptr }$/;"	kind:function	class:List::const_iterator	access:public	signature:( )
+const_iterator	list.h	/^        const_iterator( Node *p ) :  current{ p }$/;"	kind:function	class:List::const_iterator	access:protected	signature:( Node *p )
+const_iterator	list.h	/^    class const_iterator$/;"	kind:class	class:List	access:public
+const_iterator	list.h	/^    typedef const Object * const_iterator;$/;"	kind:typedef	class:Vector	access:public
+contains	BinarySearchTree.h	/^    bool contains( const Comparable & x ) const$/;"	kind:function	class:BinarySearchTree	access:public	signature:( const Comparable & x ) const
+contains	BinarySearchTree.h	/^    bool contains( const Comparable & x, BinaryNode *t ) const$/;"	kind:function	class:BinarySearchTree	access:private	signature:( const Comparable & x, BinaryNode *t ) const
+contains	avltree.h	/^    bool contains( const Comparable & x ) const$/;"	kind:function	class:AvlTree	access:public	signature:( const Comparable & x ) const
+contains	avltree.h	/^    bool contains( const Comparable & x, AvlNode *t ) const$/;"	kind:function	class:AvlTree	access:private	signature:( const Comparable & x, AvlNode *t ) const
+copy	BinarySearchTree.h	/^        BinarySearchTree copy = rhs;$/;"	kind:local
+copy	avltree.h	/^        AvlTree copy = rhs;$/;"	kind:local
+copy	list.h	/^        List copy = rhs;$/;"	kind:local
+copy	list.h	/^        Vector copy = rhs;$/;"	kind:local
 cout	main.cpp	/^    std::cout << "The contents of fifth are: ";$/;"	kind:member	class:std	file:
 cout	main.cpp	/^    std::cout << "The contents of fifth vector are: ";$/;"	kind:member	class:std	file:
 cout	main.cpp	/^    std::cout << "mylist contains:";$/;"	kind:member	class:std	file:
 cout	main.cpp	/^    std::cout << '\\n';$/;"	kind:member	class:std	file:
+current	list.h	/^        Node *current;$/;"	kind:member	class:List::const_iterator	access:protected
+data	list.h	/^        Object  data;$/;"	kind:member	struct:List::Node	access:public
+doubleWithLeftChild	avltree.h	/^    void doubleWithLeftChild( AvlNode * & k3 )$/;"	kind:function	class:AvlTree	access:private	signature:( AvlNode * & k3 )
+doubleWithRightChild	avltree.h	/^    void doubleWithRightChild( AvlNode * & k1 )$/;"	kind:function	class:AvlTree	access:private	signature:( AvlNode * & k1 )
+element	BinarySearchTree.h	/^        Comparable element;$/;"	kind:member	struct:BinarySearchTree::BinaryNode	access:public
+element	avltree.h	/^        Comparable element;$/;"	kind:member	struct:AvlTree::AvlNode	access:public
+empty	list.h	/^    bool empty( ) const$/;"	kind:function	class:List	access:public	signature:( ) const
+empty	list.h	/^    bool empty( ) const$/;"	kind:function	class:Vector	access:public	signature:( ) const
+end	list.h	/^      { insert( end( ), std::move( x ) ); }$/;"	kind:prototype	signature:()
+end	list.h	/^      { insert( end( ), x ); }$/;"	kind:prototype	signature:()
+end	list.h	/^    const_iterator end( ) const$/;"	kind:function	class:List	access:public	signature:( ) const
+end	list.h	/^    const_iterator end( ) const$/;"	kind:function	class:Vector	access:public	signature:( ) const
+end	list.h	/^    iterator end( )$/;"	kind:function	class:List	access:public	signature:( )
+end	list.h	/^    iterator end( )$/;"	kind:function	class:Vector	access:public	signature:( )
+endl	BinarySearchTree.h	/^            out << "Empty tree" << endl;$/;"	kind:local
+endl	avltree.h	/^            cout << "Empty tree" << endl;$/;"	kind:local
+endl	list.h	/^        cout<<"call = "<<endl;$/;"	kind:local
+endl	list.h	/^        cout<<"call = Rvalue"<<endl; $/;"	kind:local
+endl	list.h	/^        cout<<"call Rvalue"<<endl;$/;"	kind:variable
+endl	list.h	/^        cout<<"call init"<<endl;$/;"	kind:variable
+endl	main.cpp	/^            cout<<a<<endl;$/;"	kind:local
 endl	main.cpp	/^    cout<<endl; $/;"	kind:local
 endl	main.cpp	/^    cout<<endl;$/;"	kind:local
+erase	list.h	/^    iterator erase( iterator from, iterator to )$/;"	kind:function	class:List	access:public	signature:( iterator from, iterator to )
+erase	list.h	/^    iterator erase( iterator itr )$/;"	kind:function	class:List	access:public	signature:( iterator itr )
 features	build/CMakeFiles/feature_tests.cxx	/^  const char features[] = {"\\n"$/;"	kind:variable
 fifth	main.cpp	/^    std::list<int> fifth (myints, myints + sizeof(myints) \/ sizeof(int) );$/;"	kind:prototype	file:	signature:(myints, myints + sizeof(myints) / sizeof(int) )
 fifthV	main.cpp	/^            cout<<fifthV[i]<<' ';$/;"	kind:local
-fifthV	main.cpp	/^    std::vector<int> fifthV(myvector, myvector + sizeof(myvector)\/sizeof(int));$/;"	kind:prototype	file:	signature:(myvector, myvector + sizeof(myvector)/sizeof(int))
+fifthV	main.cpp	/^    std::vector<int> fifthV(myownvector, myownvector + sizeof(myvector)\/sizeof(int));$/;"	kind:prototype	file:	signature:(myownvector, myownvector + sizeof(myvector)/sizeof(int))
+findMax	BinarySearchTree.h	/^    BinaryNode * findMax( BinaryNode *t ) const$/;"	kind:function	class:BinarySearchTree	access:private	signature:( BinaryNode *t ) const
+findMax	BinarySearchTree.h	/^    const Comparable & findMax( ) const$/;"	kind:function	class:BinarySearchTree	access:public	signature:( ) const
+findMax	avltree.h	/^    AvlNode * findMax( AvlNode *t ) const$/;"	kind:function	class:AvlTree	access:private	signature:( AvlNode *t ) const
+findMax	avltree.h	/^    const Comparable & findMax( ) const$/;"	kind:function	class:AvlTree	access:public	signature:( ) const
+findMin	BinarySearchTree.h	/^    BinaryNode * findMin( BinaryNode *t ) const$/;"	kind:function	class:BinarySearchTree	access:private	signature:( BinaryNode *t ) const
+findMin	BinarySearchTree.h	/^    const Comparable & findMin( ) const$/;"	kind:function	class:BinarySearchTree	access:public	signature:( ) const
+findMin	avltree.h	/^    AvlNode * findMin( AvlNode *t ) const$/;"	kind:function	class:AvlTree	access:private	signature:( AvlNode *t ) const
+findMin	avltree.h	/^    const Comparable & findMin( ) const$/;"	kind:function	class:AvlTree	access:public	signature:( ) const
 first	main.cpp	/^    std::list<int> first;                                \/\/ empty list of ints$/;"	kind:local
 firstV	main.cpp	/^    std::vector<int> firstV;                                \/\/ empty vector of ints$/;"	kind:local
 fourth	main.cpp	/^    std::list<int> fourth (third);                       \/\/ a copy of third$/;"	kind:prototype	file:	signature:(third)
 fourthV	main.cpp	/^    std::vector<int> fourthV (thirdV);                       \/\/ a copy of third$/;"	kind:prototype	file:	signature:(thirdV)
+front	list.h	/^    Object & front( )$/;"	kind:function	class:List	access:public	signature:( )
+front	list.h	/^    const Object & front( ) const$/;"	kind:function	class:List	access:public	signature:( ) const
+head	list.h	/^    Node *head;$/;"	kind:member	class:List	access:private
+height	avltree.h	/^        int       height;$/;"	kind:member	struct:AvlTree::AvlNode	access:public
+height	avltree.h	/^    int height( AvlNode *t ) const$/;"	kind:function	class:AvlTree	access:private	signature:( AvlNode *t ) const
 info_arch	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	kind:variable
 info_compiler	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	kind:variable
 info_cray	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const *info_cray = "INFO" ":" "compiler_wrapper[CrayPrgEnv]";$/;"	kind:variable
@@ -212,25 +510,140 @@ info_simulate	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^cha
 info_simulate_version	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_simulate_version[] = {$/;"	kind:variable
 info_version	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_version[] = {$/;"	kind:variable
 info_version_internal	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_version_internal[] = {$/;"	kind:variable
+init	list.h	/^    void init( )$/;"	kind:function	class:List	access:private	signature:( )
+insert	BinarySearchTree.h	/^    void insert( Comparable && x )$/;"	kind:function	class:BinarySearchTree	access:public	signature:( Comparable && x )
+insert	BinarySearchTree.h	/^    void insert( Comparable && x, BinaryNode * & t )$/;"	kind:function	class:BinarySearchTree	access:private	signature:( Comparable && x, BinaryNode * & t )
+insert	BinarySearchTree.h	/^    void insert( const Comparable & x )$/;"	kind:function	class:BinarySearchTree	access:public	signature:( const Comparable & x )
+insert	BinarySearchTree.h	/^    void insert( const Comparable & x, BinaryNode * & t )$/;"	kind:function	class:BinarySearchTree	access:private	signature:( const Comparable & x, BinaryNode * & t )
+insert	avltree.h	/^    void insert( Comparable && x )$/;"	kind:function	class:AvlTree	access:public	signature:( Comparable && x )
+insert	avltree.h	/^    void insert( Comparable && x, AvlNode * & t )$/;"	kind:function	class:AvlTree	access:private	signature:( Comparable && x, AvlNode * & t )
+insert	avltree.h	/^    void insert( const Comparable & x )$/;"	kind:function	class:AvlTree	access:public	signature:( const Comparable & x )
+insert	avltree.h	/^    void insert( const Comparable & x, AvlNode * & t )$/;"	kind:function	class:AvlTree	access:private	signature:( const Comparable & x, AvlNode * & t )
+insert	list.h	/^    iterator insert( iterator itr, Object && x )$/;"	kind:function	class:List	access:public	signature:( iterator itr, Object && x )
+insert	list.h	/^    iterator insert( iterator itr, const Object & x )$/;"	kind:function	class:List	access:public	signature:( iterator itr, const Object & x )
 insert	main.cpp	/^    mylist.insert (it,10);                        \/\/ 1 10 2 3 4 5$/;"	kind:prototype	file:	signature:(it,10)
 insert	main.cpp	/^    mylist.insert (it,2,20);                      \/\/ 1 10 20 20 2 3 4 5$/;"	kind:prototype	file:	signature:(it,2,20)
 insert	main.cpp	/^    mylist.insert (it,myvector.begin(),myvector.end());$/;"	kind:prototype	file:	signature:(it,myvector.begin(),myvector.end())
+isEmpty	BinarySearchTree.h	/^    bool isEmpty( ) const$/;"	kind:function	class:BinarySearchTree	access:public	signature:( ) const
+isEmpty	avltree.h	/^    bool isEmpty( ) const$/;"	kind:function	class:AvlTree	access:public	signature:( ) const
 it	main.cpp	/^        cout<<*it<< ' ';$/;"	kind:local
 it	main.cpp	/^      std::cout << ' ' << *it;$/;"	kind:local
 it	main.cpp	/^      std::cout << *it << ' ';$/;"	kind:local
 it	main.cpp	/^    std::list<int>::iterator it;$/;"	kind:local
+iterator	list.h	/^        iterator( )$/;"	kind:function	class:List::iterator	access:public	signature:( )
+iterator	list.h	/^        iterator( Node *p ) : const_iterator{ p }$/;"	kind:function	class:List::iterator	access:protected	signature:( Node *p )
+iterator	list.h	/^    class iterator : public const_iterator$/;"	kind:class	class:List	inherits:const_iterator	access:public
+iterator	list.h	/^    typedef Object * iterator;$/;"	kind:typedef	class:Vector	access:public
+k1	avltree.h	/^        AvlNode *k1 = k2->left;$/;"	kind:local
+k2	avltree.h	/^        AvlNode *k2 = k1->right;$/;"	kind:local
+left	BinarySearchTree.h	/^        BinaryNode *left;$/;"	kind:member	struct:BinarySearchTree::BinaryNode	access:public
+left	avltree.h	/^        AvlNode   *left;$/;"	kind:member	struct:AvlTree::AvlNode	access:public
 main	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^int main(int argc, char* argv[])$/;"	kind:function	signature:(int argc, char* argv[])
 main	build/CMakeFiles/feature_tests.cxx	/^int main(int argc, char** argv) { (void)argv; return features[argc]; }$/;"	kind:function	signature:(int argc, char** argv)
 main	main.cpp	/^int main(int argc, char ** argv)$/;"	kind:function	signature:(int argc, char ** argv)
+makeEmpty	BinarySearchTree.h	/^    void makeEmpty( )$/;"	kind:function	class:BinarySearchTree	access:public	signature:( )
+makeEmpty	BinarySearchTree.h	/^    void makeEmpty( BinaryNode * & t )$/;"	kind:function	class:BinarySearchTree	access:private	signature:( BinaryNode * & t )
+makeEmpty	avltree.h	/^    void makeEmpty( )$/;"	kind:function	class:AvlTree	access:public	signature:( )
+makeEmpty	avltree.h	/^    void makeEmpty( AvlNode * & t )$/;"	kind:function	class:AvlTree	access:private	signature:( AvlNode * & t )
+max	avltree.h	/^    int max( int lhs, int rhs ) const$/;"	kind:function	class:AvlTree	access:private	signature:( int lhs, int rhs ) const
+move	BinarySearchTree.h	/^            insert( std::move( x ), t->left );$/;"	kind:prototype	signature:(x )
+move	BinarySearchTree.h	/^            insert( std::move( x ), t->right );$/;"	kind:prototype	signature:(x )
+move	BinarySearchTree.h	/^        insert( std::move( x ), root );$/;"	kind:prototype	signature:(x )
+move	avltree.h	/^            insert( std::move( x ), t->left );$/;"	kind:prototype	signature:(x )
+move	avltree.h	/^            insert( std::move( x ), t->right );$/;"	kind:prototype	signature:(x )
+move	avltree.h	/^        insert( std::move( x ), root );$/;"	kind:prototype	signature:(x )
+move	list.h	/^      { insert( begin( ), std::move( x ) ); }$/;"	kind:prototype	class:List::std	signature:( x )
+move	list.h	/^      { insert( end( ), std::move( x ) ); }$/;"	kind:prototype	class:List::std	signature:( x )
 myints	main.cpp	/^    int myints[] = {16,2,77,29};$/;"	kind:local
 mylist	main.cpp	/^    std::list<int> mylist;$/;"	kind:local
-myvector	main.cpp	/^    int myvector[] = {16,2,77,29};$/;"	kind:local
+myownvector	main.cpp	/^    int myownvector[] = {16,2,77,29};$/;"	kind:local
+next	list.h	/^        Node   *next;$/;"	kind:member	struct:List::Node	access:public
+objects	list.h	/^    Object * objects;$/;"	kind:member	class:Vector	access:private
+old	list.h	/^            const_iterator old = *this;$/;"	kind:local
+old	list.h	/^            iterator old = *this;$/;"	kind:local
+oldNode	BinarySearchTree.h	/^            BinaryNode *oldNode = t;$/;"	kind:local
+oldNode	avltree.h	/^            AvlNode *oldNode = t;$/;"	kind:local
+operator !=	list.h	/^        bool operator!= ( const const_iterator & rhs ) const$/;"	kind:function	class:List::const_iterator	access:public	signature:( const const_iterator & rhs ) const
+operator *	list.h	/^        Object & operator* ( )$/;"	kind:function	class:List::iterator	access:public	signature:( )
+operator *	list.h	/^        const Object & operator* ( ) const$/;"	kind:function	class:List::const_iterator	access:public	signature:( ) const
+operator *	list.h	/^        const Object & operator* ( ) const$/;"	kind:function	class:List::iterator	access:public	signature:( ) const
+operator ++	list.h	/^        const_iterator & operator++ ( )$/;"	kind:function	class:List::const_iterator	access:public	signature:( )
+operator ++	list.h	/^        const_iterator operator++ ( int )$/;"	kind:function	class:List::const_iterator	access:public	signature:( int )
+operator ++	list.h	/^        iterator & operator++ ( )$/;"	kind:function	class:List::iterator	access:public	signature:( )
+operator ++	list.h	/^        iterator operator++ ( int )$/;"	kind:function	class:List::iterator	access:public	signature:( int )
+operator --	list.h	/^        const_iterator & operator-- ( )$/;"	kind:function	class:List::const_iterator	access:public	signature:( )
+operator --	list.h	/^        const_iterator operator-- ( int )$/;"	kind:function	class:List::const_iterator	access:public	signature:( int )
+operator --	list.h	/^        iterator & operator-- ( )$/;"	kind:function	class:List::iterator	access:public	signature:( )
+operator --	list.h	/^        iterator operator-- ( int )$/;"	kind:function	class:List::iterator	access:public	signature:( int )
+operator =	BinarySearchTree.h	/^    BinarySearchTree & operator=( BinarySearchTree && rhs )$/;"	kind:function	class:BinarySearchTree	access:public	signature:( BinarySearchTree && rhs )
+operator =	BinarySearchTree.h	/^    BinarySearchTree & operator=( const BinarySearchTree & rhs )$/;"	kind:function	class:BinarySearchTree	access:public	signature:( const BinarySearchTree & rhs )
+operator =	avltree.h	/^    AvlTree & operator=( AvlTree && rhs )$/;"	kind:function	class:AvlTree	access:public	signature:( AvlTree && rhs )
+operator =	avltree.h	/^    AvlTree & operator=( const AvlTree & rhs )$/;"	kind:function	class:AvlTree	access:public	signature:( const AvlTree & rhs )
+operator =	list.h	/^    List & operator= ( List && rhs )$/;"	kind:function	class:List	access:public	signature:( List && rhs )
+operator =	list.h	/^    List & operator= ( const List & rhs )$/;"	kind:function	class:List	access:public	signature:( const List & rhs )
+operator =	list.h	/^    Vector & operator= ( Vector && rhs )$/;"	kind:function	class:Vector	access:public	signature:( Vector && rhs )
+operator =	list.h	/^    Vector & operator= ( const Vector & rhs )$/;"	kind:function	class:Vector	access:public	signature:( const Vector & rhs )
+operator ==	list.h	/^        bool operator== ( const const_iterator & rhs ) const$/;"	kind:function	class:List::const_iterator	access:public	signature:( const const_iterator & rhs ) const
+operator []	list.h	/^    Object & operator[]( int index )$/;"	kind:function	class:Vector	access:public	signature:( int index )
+operator []	list.h	/^    const Object & operator[]( int index ) const$/;"	kind:function	class:Vector	access:public	signature:( int index ) const
+p	list.h	/^        Node *p = itr.current;$/;"	kind:local
+pop_back	list.h	/^    void pop_back( )$/;"	kind:function	class:List	access:public	signature:( )
+pop_back	list.h	/^    void pop_back( )$/;"	kind:function	class:Vector	access:public	signature:( )
+pop_front	list.h	/^    void pop_front( )$/;"	kind:function	class:List	access:public	signature:( )
+prev	list.h	/^        Node   *prev;$/;"	kind:member	struct:List::Node	access:public
+printTree	BinarySearchTree.h	/^    void printTree( BinaryNode *t, ostream & out ) const$/;"	kind:function	class:BinarySearchTree	access:private	signature:( BinaryNode *t, ostream & out ) const
+printTree	BinarySearchTree.h	/^    void printTree( ostream & out = cout ) const$/;"	kind:function	class:BinarySearchTree	access:public	signature:( ostream & out = cout ) const
+printTree	avltree.h	/^    void printTree( ) const$/;"	kind:function	class:AvlTree	access:public	signature:( ) const
+printTree	avltree.h	/^    void printTree( AvlNode *t ) const$/;"	kind:function	class:AvlTree	access:private	signature:( AvlNode *t ) const
+push_back	list.h	/^    void push_back( Object && x )$/;"	kind:function	class:List	access:public	signature:( Object && x )
+push_back	list.h	/^    void push_back( Object && x )$/;"	kind:function	class:Vector	access:public	signature:( Object && x )
+push_back	list.h	/^    void push_back( const Object & x )$/;"	kind:function	class:List	access:public	signature:( const Object & x )
+push_back	list.h	/^    void push_back( const Object & x )$/;"	kind:function	class:Vector	access:public	signature:( const Object & x )
+push_back	main.cpp	/^            A.push_back(i);$/;"	kind:prototype	file:	signature:(i)
 push_back	main.cpp	/^    for (int i=1; i<=5; ++i) mylist.push_back(i); \/\/ 1 2 3 4 5$/;"	kind:prototype	file:	signature:(i)
+push_front	list.h	/^    void push_front( Object && x )$/;"	kind:function	class:List	access:public	signature:( Object && x )
+push_front	list.h	/^    void push_front( const Object & x )$/;"	kind:function	class:List	access:public	signature:( const Object & x )
 qnxnto	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* qnxnto = "INFO" ":" "qnxnto[]";$/;"	kind:variable
+remove	BinarySearchTree.h	/^    void remove( const Comparable & x )$/;"	kind:function	class:BinarySearchTree	access:public	signature:( const Comparable & x )
+remove	BinarySearchTree.h	/^    void remove( const Comparable & x, BinaryNode * & t )$/;"	kind:function	class:BinarySearchTree	access:private	signature:( const Comparable & x, BinaryNode * & t )
+remove	avltree.h	/^    void remove( const Comparable & x )$/;"	kind:function	class:AvlTree	access:public	signature:( const Comparable & x )
+remove	avltree.h	/^    void remove( const Comparable & x, AvlNode * & t )$/;"	kind:function	class:AvlTree	access:private	signature:( const Comparable & x, AvlNode * & t )
 require	build/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^  int require = 0;$/;"	kind:local
+reserve	list.h	/^    void reserve( int newCapacity ) \/\/两步，迁移数据，使用新capacity$/;"	kind:function	class:Vector	access:public	signature:( int newCapacity )
+resize	list.h	/^    void resize( int newSize )$/;"	kind:function	class:Vector	access:public	signature:( int newSize )
+retrieve	list.h	/^        Object & retrieve( ) const$/;"	kind:function	class:List::const_iterator	access:protected	signature:( ) const
+right	BinarySearchTree.h	/^        BinaryNode *right;$/;"	kind:member	struct:BinarySearchTree::BinaryNode	access:public
+right	avltree.h	/^        AvlNode   *right;$/;"	kind:member	struct:AvlTree::AvlNode	access:public
+root	BinarySearchTree.h	/^        insert( std::move( x ), root );$/;"	kind:local
+root	BinarySearchTree.h	/^    BinaryNode *root;$/;"	kind:member	class:BinarySearchTree	access:private
+root	avltree.h	/^        insert( std::move( x ), root );$/;"	kind:local
+root	avltree.h	/^    AvlNode *root;$/;"	kind:member	class:AvlTree	access:private
+rotateWithLeftChild	avltree.h	/^    void rotateWithLeftChild( AvlNode * & k2 )$/;"	kind:function	class:AvlTree	access:private	signature:( AvlNode * & k2 )
+rotateWithRightChild	avltree.h	/^    void rotateWithRightChild( AvlNode * & k1 )$/;"	kind:function	class:AvlTree	access:private	signature:( AvlNode * & k1 )
+size	list.h	/^    int size( ) const$/;"	kind:function	class:List	access:public	signature:( ) const
+size	list.h	/^    int size( ) const$/;"	kind:function	class:Vector	access:public	signature:( ) const
 std::cout	main.cpp	/^    std::cout << "The contents of fifth are: ";$/;"	kind:member	class:std	file:
 std::cout	main.cpp	/^    std::cout << "The contents of fifth vector are: ";$/;"	kind:member	class:std	file:
 std::cout	main.cpp	/^    std::cout << "mylist contains:";$/;"	kind:member	class:std	file:
 std::cout	main.cpp	/^    std::cout << '\\n';$/;"	kind:member	class:std	file:
+swap	BinarySearchTree.h	/^        std::swap( root, rhs.root );       $/;"	kind:prototype	class:BinarySearchTree::std	signature:( root, rhs.root )
+swap	avltree.h	/^        std::swap( root, rhs.root );$/;"	kind:prototype	class:AvlTree::std	signature:( root, rhs.root )
+swap	list.h	/^        std::swap( head, rhs.head );$/;"	kind:prototype	class:List::std	signature:( head, rhs.head )
+swap	list.h	/^        std::swap( objects, newArray );$/;"	kind:prototype	class:Vector::std	signature:( objects, newArray )
+swap	list.h	/^        std::swap( objects, rhs.objects );$/;"	kind:prototype	class:Vector::std	signature:( objects, rhs.objects )
+swap	list.h	/^        std::swap( tail, rhs.tail );$/;"	kind:prototype	class:List::std	signature:( tail, rhs.tail )
+swap	list.h	/^        std::swap( theCapacity, rhs.theCapacity );$/;"	kind:prototype	class:Vector::std	signature:( theCapacity, rhs.theCapacity )
+swap	list.h	/^        std::swap( theSize, rhs.theSize );$/;"	kind:prototype	class:List::std	signature:( theSize, rhs.theSize )
+swap	list.h	/^        std::swap( theSize, rhs.theSize );$/;"	kind:prototype	class:Vector::std	signature:( theSize, rhs.theSize )
+tail	list.h	/^    Node *tail;$/;"	kind:member	class:List	access:private
+theCapacity	list.h	/^    int theCapacity;$/;"	kind:member	class:Vector	access:private
+theSize	list.h	/^    int   theSize;$/;"	kind:member	class:List	access:private
+theSize	list.h	/^    int theSize;$/;"	kind:member	class:Vector	access:private
 third	main.cpp	/^    std::list<int> third (second.begin(),second.end());  \/\/ iterating through second$/;"	kind:prototype	file:	signature:(second.begin(),second.end())
 thirdV	main.cpp	/^    std::vector<int> thirdV (second.begin(),second.end());  \/\/ iterating through second$/;"	kind:prototype	file:	signature:(second.begin(),second.end())
+x	list.h	/^      { insert( begin( ), x ); }$/;"	kind:local
+x	list.h	/^      { insert( end( ), x ); }$/;"	kind:local
+~AvlTree	avltree.h	/^    ~AvlTree( )$/;"	kind:function	class:AvlTree	access:public	signature:( )
+~BinarySearchTree	BinarySearchTree.h	/^    ~BinarySearchTree( )$/;"	kind:function	class:BinarySearchTree	access:public	signature:( )
+~List	list.h	/^    ~List( )$/;"	kind:function	class:List	access:public	signature:( )
+~Vector	list.h	/^    ~Vector( )$/;"	kind:function	class:Vector	access:public	signature:( )
